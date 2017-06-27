@@ -1,0 +1,12 @@
+[
+  {
+    "script": "services/web/index.js",
+    "name": "web-service",
+    "watch": ["config", "services/web"]
+  },
+  {
+    "script": "services/rest/index.js",
+    "name": "rest-service",
+    "watch": ["config", "services/web"]
+  }
+]
